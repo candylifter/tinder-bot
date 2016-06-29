@@ -1,0 +1,16 @@
+{
+  "name": "tinder-bot",
+  "description": "Tinder bot that uses Markov chains to reply to messages",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Currently no tests\" && exit 1",
+    "start": "echo \"Not yet implemented\" && exit 1"
+  },
+  "author": "Martynas Kadiša",
+  "licence": "MIT",
+  "dependencies": {
+    "markov": "0.0.7"
+  },
+  "devDependencies": {}
+}
