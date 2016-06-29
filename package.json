@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Currently no tests\" && exit 1",
-    "start": "echo \"Not yet implemented\" && exit 1"
+    "start": "nodemon app/app.js --exec babel-node --presets es2015"
   },
   "author": "Martynas Kadiša",
   "licence": "MIT",
   "dependencies": {
-    "markov": "0.0.7"
+    "markov": "0.0.7",
+    "markov-strings": "^1.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "nodemon": "^1.9.2"
+  }
 }
